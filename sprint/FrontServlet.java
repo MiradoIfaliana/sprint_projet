@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package servlet;
+package etu1786.framework.servlet;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
