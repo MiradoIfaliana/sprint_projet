@@ -5,7 +5,7 @@ import javax.servlet.http.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.*;
-import etu1786.framework.*;;
+import etu1786.framework.*;
 public class FrontServlet extends HttpServlet {
 
 
@@ -18,7 +18,6 @@ public class FrontServlet extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    HashMap<String,Mapping> MappingUrls;
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         processRequest(request, response);
     }
